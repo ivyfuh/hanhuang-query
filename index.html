@@ -182,7 +182,6 @@
     </div>
     <div class="card-note">
       <strong>※ 重要說明：</strong>本表內容數據為預估試算，實際分配權利價值仍以主管機關最終核定之權利變換計畫內容為準。<br>
-      ※ 更新後總價值含住宅（均價180萬/坪）、1F店面（250萬/坪）、地面車位及地下車位。
     </div>
     <div class="card-actions">
       <button class="btn-print" onclick="printOne()">🖨️ 列印這一張</button>
@@ -238,7 +237,7 @@ async function loadData(){
     }));
     // 顯示
     document.getElementById('loading').style.display='none';
-    document.getElementById('paramBar').style.display='block';
+    // paramBar hidden
     document.getElementById('searchBox').style.display='block';
     document.getElementById('guideBox').style.display='block';
     const cdPct=(cdR*100).toFixed(1);
